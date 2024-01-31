@@ -1,0 +1,29 @@
+{
+  "name": "twist-int-project",
+  "version": "1.0.0",
+  "description": "",
+
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cy:run": "npx cypress run",
+    "cy:update-snapshot": "cypress run --env updatesnapshots=true",
+    "cypress:open:i3f":"npx cy:open",
+    "cypress:open:t2i":"",
+    "cypress:open:t31":"",
+    "cypress:run:i3f":"",
+    "cypress:run:t2i":"",
+    "cypress:run:t31":""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "node": "^18.13.0",
+    "typescript": "^4.9.3",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.13.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
